@@ -1,0 +1,264 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: consolas;
+
+	user-select: none;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+
+}
+
+body{
+	height: 100%;
+	width: 100%;
+
+/*
+	background-image: url(bg.png);
+	background-position: center;
+	background-size: cover;
+*/
+	background-color: black;
+	margin: auto;
+}
+
+.bases{
+	width: 100%;
+	height: 15%;
+
+}
+
+.bases .bot1{
+	width: 25%;
+	height: 100%;
+
+	float: left;
+	border: 1px solid white;
+	
+	cursor: pointer;
+}
+
+/*FONDOS PARA BOTONES SUPERIORES*/
+
+	#bin{
+		background-image: url(../img/bin.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#oct{
+		background-image: url(../img/oct.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#dec{
+		background-image: url(../img/dec.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+
+		background-color: grey;
+	}
+
+	#hex{
+		background-image: url(../img/hex.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+
+/*DISPLAY*/
+
+.display{
+	width: 100%;
+	height: 20%;
+
+	text-align: center;
+	border: 1px solid white;
+
+	cursor: pointer;
+
+	color: cyan;
+
+}
+
+
+.display .entrada1{
+	width: 100%;
+	height: 100%;
+}
+
+
+.display .entrada1 input{
+	width: 100%;
+	height: 100%;
+
+	text-align: center;
+	font-size: 2em;
+	color: cyan;
+
+	background-color: black;
+	border: none;
+}
+
+
+/*BOTONERA*/
+
+.botonera{
+	width: 100%;
+	height: 60%;
+}
+
+.botonera .bot2{
+	height: 18%;
+	width: 33.3%;
+
+	float: left;
+	border: 1px solid white;
+
+	cursor: pointer;
+	
+}
+
+.botonera .bot2:hover{
+	background-color: cyan;
+}
+
+
+/*FONDO PARA LA BOTONERA*/
+
+	#bf{
+		background-image: url(../img/f.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#be{
+		background-image: url(../img/e.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#bd{
+		background-image: url(../img/d.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#bc{
+		background-image: url(../img/c.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#bb{
+		background-image: url(../img/b.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#ba{
+		background-image: url(../img/a.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#b9{
+		background-image: url(../img/9.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#b8{
+		background-image: url(../img/8.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#b7{
+		background-image: url(../img/7.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#b6{
+		background-image: url(../img/6.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#b5{
+		background-image: url(../img/5.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#b4{
+		background-image: url(../img/4.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#b3{
+		background-image: url(../img/3.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#b2{
+		background-image: url(../img/2.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#b1{
+		background-image: url(../img/1.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#b0{
+		background-image: url(../img/0.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#bpunto{
+		background-image: url(../img/punto.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#bcls{
+		background-image: url(../img/borrar.png);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+
